@@ -1,0 +1,21 @@
+{
+  "name": "slack-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createKafkaTopic": "node src/scripts/createKafkaTopic.js",
+    "getSignature": "node src/scripts/getSignature.js",
+    "producer": "node src/producer.js",
+    "consumer": "node src/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/webhook": "^6.1.0",
+    "dotenv": "^16.0.0",
+    "kafkajs": "^1.16.0",
+    "npm-hook-receiver": "^1.0.0"
+  }
+}

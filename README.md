@@ -8,9 +8,8 @@
   - Edit `docker-compose.yml`
 
 ```yml
----
-~/docker-compose.yml
----
+# ~/docker-compose.yml
+
 kafka:
   image: <your_username>/kafka_m1
 ```
